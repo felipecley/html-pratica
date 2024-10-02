@@ -1,0 +1,126 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #5f5fe3, #035066);
+    background-clip: text;
+    color: transparent;
+    
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.contato{
+    color: greenyellow;
+    text-align: center;  /* Centralizando o texto "Fale comigo */
+    position: relative;
+    top: 60px;
+
+    /* Adições para centralização do conteúdo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+
+span{
+    color: greenyellow;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 30rem;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-top: 16px;
+}
+
+a{  display: flex;
+    font-weight: 300;
+    text-decoration: none;
+    color: greenyellow;
+    cursor: pointer;   
+}
+a:hover{
+    color: black;
+}
+
+button{ /* Botão do formulário*/
+    background-color: transparent; /* Define o fundo do botão como transparente*/ 
+    color: greenyellow; /* Define a cor do texto */
+    border: solid 1px; /* Adiciona uma borda sólida de um 1px ao redor do botão */
+    padding: 7px; /* Adiciona um preenchimento interno ao redor do conteúdo do botão */
+    border-radius: 15px; /* Arredona os cantos do btoão com 15px de raio */
+    font-size: 12px; /* Define o tamanho do texto como 12px */
+    width: 150px; /* Define a largura fixa de 150px para o botão */
+    position: relative;
+    top: 9px; /* Define o a altura entre a borda do formulario e a barra de mensagema */
+}
+
+button:hover{
+    background-color: rgb(185, 230, 117); /* Muda a cor ao passar o mouse */
+    color: black;
+    transition: 0.5s;
+    cursor: pointer; /* Muda o cursor para indicar que  é clicável */
+}
+
+fieldset{
+    /**background-color: black;**/
+    background: linear-gradient(to right, #5f5fd3, #98dcee);
+    color: black;
+    padding: 25px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    width: 80%; /* Largura responsiva */
+    max-width: 400px; /* Largura maxíma */
+    margin: 100px auto; /* Centralização vertical e horizontal */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: none;
+    align-items: center;
+
+    
+    
+}
+
+label{
+    margin-bottom: 5px;
+    
+}
+
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid ;
+    border-radius: 5px;
+    
+}
+
+textarea{
+    height: 70px;
+    resize: none;
+}
+
+.botao-enviar{
+    padding: 10px 15px;
+    position: relative;
+    top: 10px;
+    
+}
+
+.redes-sociais{
+    position: relative;
+    gap: 35px; /* ajusta o espaçamento entre os ícones */
+    display: flex;
+    justify-content: center; /* centraliza a imagem dentro da div */
+    margin-top: -80px;
+}
+

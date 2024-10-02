@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(to right, #5f5fe3, #035066);
+}
+
+
+
+h1{
+    text-align: center;
+    color: greenyellow;
+    position: relative;
+    top: 90px;
+
+}
+
+h2{
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 100px;
+    
+}
